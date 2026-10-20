@@ -29,6 +29,7 @@ jobs:
             gawk gcc-multilib gettext git g++ g++-multilib \
             libncurses5-dev libssl-dev \
             python3 \
+            python3-pyelftools \
             rsync \
             unzip \
             wget \
