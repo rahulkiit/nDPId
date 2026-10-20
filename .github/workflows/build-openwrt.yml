@@ -42,8 +42,8 @@ jobs:
             x86-64)
               SDK_URL="https://downloads.openwrt.org/releases/${SDK_VER}/targets/x86/64/openwrt-sdk-${SDK_VER}-x86-64_gcc-${GCC_VER}_musl.Linux-x86_64.tar.zst"
               ;;
-            ramips-mt7621)
-              SDK_URL="https://downloads.openwrt.org/releases/${SDK_VER}/targets/ramips/mt7621/openwrt-sdk-${SDK_VER}-ramips-mt7621_gcc-${GCC_VER}_musl.Linux-x86_64.tar.zst"
+            rockchip/armv8)
+              SDK_URL="https://downloads.openwrt.org/releases/25.12.5/targets/rockchip/armv8/openwrt-sdk-25.12.5-rockchip-armv8_gcc-14.3.0_musl.Linux-x86_64.tar.zst"
               ;;
             armsr-armv8)
               SDK_URL="https://downloads.openwrt.org/releases/${SDK_VER}/targets/armsr/armv8/openwrt-sdk-${SDK_VER}-armsr-armv8_gcc-${GCC_VER}_musl.Linux-x86_64.tar.zst"
