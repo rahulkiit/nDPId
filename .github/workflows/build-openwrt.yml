@@ -13,7 +13,7 @@ jobs:
       matrix:
         target:
           - x86-64
-          - ramips-mt7621
+          - rockchip/armv8
           - armsr-armv8
           - malta-be
 
