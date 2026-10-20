@@ -3,6 +3,7 @@ name: Build OpenWrt Packages
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
